@@ -1,0 +1,356 @@
+/* Start Body Styling */
+
+
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    background-image: url(/src/Main/Pics/background.jpg);
+    background-size: cover;
+
+
+}
+/* End Body Styling */
+
+
+/* Start Main Nav Styling */
+
+.navbar {
+    z-index: 3;
+}
+.navbar .nav-item .nav-link  {
+    color: rgb(194, 194, 194);
+}
+.navbar .nav-item   {
+    margin-left: 10px;
+}
+.navbar .nav-item .activeLink  {
+    color: white;    
+    margin-left: 35px;
+}
+.dropdown button {
+    font-size: 22px;
+    color: white;
+}
+.dropdownLi {
+    margin-left: 0;
+}
+.dropdown button:hover {
+    color: white;
+    border: transparent;
+}
+
+.navbar .nav-item a:hover  {
+    color: rgb(255, 255, 255);
+}
+.dropdown {
+    margin-left: 0px;
+}
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+}
+@media screen and (min-width:1px) and (max-width:420px) {
+    .navbar .nav-item .activeLink  {   
+        margin-left: 10px;
+    }
+    .dropdown-menu {
+        max-width: 100px;
+        min-width: 140px;
+        margin-left: -50px;
+    }
+    .dropdown-item {
+        font-size: 12px;
+        padding-right: 0;
+        width: fit-content;
+        margin-right: 0;
+    }
+}
+/* End Main Nav Styling */
+
+/* Start Main Section Styling */
+
+
+.mask {
+    align-self: center;
+    justify-content: center;
+    justify-self: center;
+    margin-top: auto;
+}
+.dropdown button {
+    font-size: 22px;
+    color: white;
+}
+.dropdownLi {
+    margin-left: 0;
+}
+.dropdown button:hover {
+    color: white;
+    border: transparent;
+}
+
+.navbar .nav-item a:hover  {
+    color: rgb(255, 255, 255);
+}
+.dropdown {
+    margin-left: 0px;
+}
+.dropdown-menu ul li a 
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+}
+/* End Main Section Styling */
+
+/* Start Footer Section Styling */
+.Mfooter  {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5.2vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(26, 26, 26);
+    
+}
+.footerLeft {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+}
+footer div a  {
+    color: rgb(183, 183, 183);
+    text-decoration: none;
+}
+footer div a:hover  {
+    color: rgb(183, 183, 183);
+}
+.Based {
+    color: rgb(183, 183, 183);
+    text-align: end;
+    transition-duration: 1s;
+
+
+}
+@media screen and (min-width:1px) and (max-width:420px) {
+    .Based{
+        font-size: 12px;
+    }
+    footer div a  {
+        font-size: 14px;
+    }
+}
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+/* End Footer Section Styling */
+
+/* Start SideBar Section Styling */
+.OpenSideBar {
+    position: fixed;
+    top: 3%;
+    right: 3%;
+    font-size: 26px;
+    color: white;
+    cursor: pointer;
+    transition-duration: 0.5s;
+
+}
+.Rightnav {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    display: none ;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    z-index: 9999;
+    padding-top: 4%;
+
+    
+}
+@media screen and (min-width:460px) and (max-width:900px) {
+    .Rightnav {
+        width:50%;}
+}
+@media screen and (min-width:1px) and (max-width:460px) {
+    .Rightnav {
+        width: 100%;}
+}
+.transparentDiv {
+    width: 80%;
+    height: 100vh;
+    z-index: 1;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.MainIcon {
+    color: black;
+    font-weight: bold;
+    font-size: 26px;
+    align-self: flex-end;
+    cursor: pointer;
+    top: 3%;
+    right: 3%;
+    position: fixed;
+    transition-duration: 2s;
+
+}
+
+.Rightnav a {
+    margin: 2px 0;
+    padding: 7px;
+}
+.Rightnav a:hover {
+    background-color: rgba(235, 235, 235, 0.464);
+    border-radius: 10px;
+    
+}
+.Rightnav a {
+   text-decoration: none;
+   color: black;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: flex-start;
+   width: 100%;
+}
+.Rightnav  span {
+    opacity: 0.7;
+    font-size: 11px;
+}
+.Rightnav   h3 {
+    opacity: 1;
+    font-size: 16px;
+}
+.RightnavFlexOFLex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+/* End SideBar Section Styling */
+
+/* Start Search Styling */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+
+
+::selection{
+  color: #fff;
+  background: #664AFF;
+}
+
+.wrapper{
+  max-width: 450px;
+  margin: 10% auto;
+  padding: 20px;
+}
+.wrapper h1 {
+    color: white;
+}
+.wrapper h4{
+    color: white;
+}
+.wrapper .search-input{
+  background: #fff;
+  color: black;
+  font-weight: bold;
+  width: 100%;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 0px 1px 5px 3px rgba(0,0,0,0.12);
+}
+
+.search-input input{
+  height: 55px;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 0 60px 0 20px;
+  font-size: 18px;
+  box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+  
+}
+
+.search-input.active input{
+  border-radius: 5px 5px 0 0;
+}
+
+.search-input .autocom-box{
+  padding: 0;
+  opacity: 0;
+  pointer-events: none;
+  max-height: 280px;
+  overflow-y: auto;
+}
+
+.search-input.active .autocom-box{
+  padding: 10px 8px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.autocom-box li{
+  list-style: none;
+  padding: 8px 12px;
+  display: none;
+  width: 100%;
+  cursor: default;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.search-input.active .autocom-box li{
+  display: block;
+}
+.autocom-box li:hover{
+  background: #efefef;
+}
+
+.search-input .icon{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 55px;
+  width: 55px;
+  text-align: center;
+  line-height: 55px;
+  font-size: 20px;
+  color: #644bff;
+  cursor: pointer;
+}
+/* End Search Styling */
